@@ -1,0 +1,43 @@
+  .o{
+    background-color: green;
+    position: fixed;
+    width: 100px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+  }
+  body{
+    height: 3000px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .con{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    border-radius: 5px;
+  }
+  .fl{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .sl{
+    margin-bottom: 10px;
+  }
+
+

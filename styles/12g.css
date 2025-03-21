@@ -1,0 +1,37 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  align-items: center;
+
+}
+.cat{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+
+  
+
+}
+button{
+  background-color: rgb(73, 166, 237);
+  border: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.n{
+  margin-left: 10px;
+  width: 200px;
+  line-height: 22px;
+}

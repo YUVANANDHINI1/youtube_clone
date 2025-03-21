@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14f</title>
+    <link rel="stylesheet" href="/styles/14f.css">
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .image{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(33, 33, 33);
+        position: fixed;
+        height: 5000px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+      
+      }
+      .i1,.i2,.i3{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+        margin-right: 10px;
+
+      }
+      .o{
+        background-color: rgb(55, 55, 55);
+        position: fixed;
+        top: 0;
+        left: 70px;
+        bottom: 0;
+        width: 150px;
+        
+        
+     }
+     .info{
+      margin-top: 15px;
+      margin-left: 10px;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+     }
+     .p{
+      font-size: 15px;
+      margin-top: 10px;
+      margin-left: 10px;
+      color: rgb(150, 150, 150);
+      font-size: 20px;
+
+      
+     }
+     .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 15px;
+     }
+     .t{
+      color: rgb(150, 150, 150);
+      padding-left: 10px;
+      line-height: 40px;
+     }
+      
+    </style>
+   
+    
+  </head>
+    <body>
+      <div class="image">
+        <img class="i1" src="/thumbnails/cat.jpg">
+        <img class="i2" src="/thumbnails/cat2.jpg">
+        <img class="i3" src="/thumbnails/dog.jpg">
+      </div>
+      <div class="o">
+        <div class="header">
+          <div class="info">INFO</div>
+          <div class="p">&#43;</div>
+        </div>
+        <div class="t">
+          <div>&#35; new-videos</div>
+          <div>&#35; updates</div>
+          <div>&#35; faq</div>
+        </div>
+      
+        
+      </div>
+    </body>
+  
+</html>

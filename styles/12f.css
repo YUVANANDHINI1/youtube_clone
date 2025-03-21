@@ -1,0 +1,41 @@
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .c{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(120, 82, 178);
+        color: white;
+        height: 50px;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .h{
+        font-weight: bold;
+      }
+      .o{
+        padding-left: 20px;
+        border-radius: 15px;
+        border: none;
+        width: 500px;    
+        height: 30px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+      }
+      .b1{
+        background-color: rgb(120, 82, 178);
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        border-radius: 2px;
+
+      }

@@ -1,0 +1,26 @@
+.o{
+ position: relative; 
+
+}
+.i{
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: 10px;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ii{
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.con{
+  position: fixed;
+}
+

@@ -1,0 +1,63 @@
+body{
+  font-family: roboto,arial;
+}
+.i{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 10px;
+}
+
+.ft{
+  display: flex;
+  justify-content: space-between;
+}
+
+.h{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  color: gray;
+  padding-top: 5px;
+  font-size: 14px;
+}
+.container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  width: 360px;
+  height: 130px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+ 
+}
+.fl{
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+.time{
+  color: gray;
+  margin-right: 0px;
+  font-size: 12px;
+}
+.chewy{
+  font-weight: bold;
+  font-size: 15px;
+}
+.three{
+  font-weight: bold;
+  font-size: 14px;
+}
+.four{
+  color: gray;
+  font-size: 14px;
+
+}
+

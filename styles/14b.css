@@ -1,0 +1,12 @@
+.o{
+  background-color: green;
+  position: fixed;
+  width: 100px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: white;
+}
+body{
+  height: 3000px;
+}

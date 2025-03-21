@@ -1,0 +1,43 @@
+.o{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+ 
+  
+}
+.p{
+  color: grey;
+  vertical-align: middle;
+}
+.t{
+  border: none;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+.b{
+  color: white;
+  background-color: rgb(54, 107, 220);
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 25px;
+  vertical-align: middle;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.d{
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 410px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+
+}

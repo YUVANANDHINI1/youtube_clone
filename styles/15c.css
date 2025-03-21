@@ -1,0 +1,37 @@
+body{
+  height: 3000px;
+}
+
+.t{
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  position: relative;
+  
+  
+}
+.o{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.xx{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  
+
+
+}
+
