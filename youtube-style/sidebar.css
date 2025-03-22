@@ -52,7 +52,8 @@
   .link {
     display: flex;
     align-items: center;
-    justify-self: right ;
+    justify-content: right ;
+    flex-direction: row;
     cursor: pointer;
     padding: 8px 24px;
   }
